@@ -18,7 +18,7 @@
  
  ### 要注意的点
 -  #### 某些ssd硬盘会导致安装系统失败比如我的OCZ -VERTEX460A，解决办法是在一块机械硬盘上安装好系统用克隆工具克隆到ssd
--  #### 相信找到这里的小可爱肯定知道需要获取 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)生成新的 SMBIOS ID
+-  #### 相信找到这里的小可爱肯定知道需要获取 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)生成新的 SMBIOS ID 吧
 -  #### 安装旧版本系统会出现错误，解决办法在安装界面的终端更改时间：
    ```
    date 070512052018.03
