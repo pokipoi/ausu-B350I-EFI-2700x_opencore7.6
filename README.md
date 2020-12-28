@@ -32,3 +32,6 @@
    （date 月日时分年.秒）
    ```
  [终端修改时间](https://jingyan.baidu.com/article/d169e18614c996436611d83e.html)
+ 
+  [免责声明](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.txt)
+
