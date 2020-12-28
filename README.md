@@ -21,4 +21,4 @@ B350I EFI opencore6.4 catalina
   
   网卡                   英特尔 I211 Gigabit Network Connection / 华硕
   
-  详细配置https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E8%AF%A6%E7%BB%86%E6%8A%A5%E8%A1%A8.txt
+ [详细配置](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E8%AF%A6%E7%BB%86%E6%8A%A5%E8%A1%A8.txt)
