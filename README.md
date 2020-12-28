@@ -1,4 +1,5 @@
 # B350I-EFI-opencore
+### 概览
 B350I EFI opencore6.4 catalina
 
   电脑型号               X64 兼容 台式电脑
@@ -22,3 +23,7 @@ B350I EFI opencore6.4 catalina
   网卡                   英特尔 I211 Gigabit Network Connection / 华硕
   
  [详细配置](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E8%AF%A6%E7%BB%86%E6%8A%A5%E8%A1%A8.txt)
+ 
+ ### 要注意的点
+ #### 某些ssd硬盘会导致安装系统失败比如我的OCZ -VERTEX460A，解决办法是在一块机械硬盘上安装好系统用克隆工具克隆到ssd
+ #### 安装旧版本系统会出现错误，解决办法在安装界面的终端更改时间：date 070512052018.03（date 月日时分年.秒） [终端修改时间](https://jingyan.baidu.com/article/d169e18614c996436611d83e.html)
