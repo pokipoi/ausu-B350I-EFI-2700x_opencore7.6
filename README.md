@@ -1,6 +1,6 @@
 # B350I-EFI-opencore
 ### 概览
-##### B350I EFI opencore6.4 catalina
+  B350I EFI opencore6.4 catalina
 
   电脑型号               X64 兼容 台式电脑
   
