@@ -35,7 +35,7 @@
  
   [免责声明](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.txt)
   
- ### 碰到的一些雷区
+ ## 碰到的一些雷区
  #### 算是自己对AMD黑苹果的一些总结，把遇到的问题捋一捋
  ### OC启动过程遇到的问题
  -  主板上没有above 4g decoding选项的，bootargs中添加npci=0x200
