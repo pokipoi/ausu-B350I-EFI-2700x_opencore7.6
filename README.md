@@ -38,21 +38,30 @@
  ### 碰到的一些雷区
  #### 算是自己对AMD黑苹果的一些总结，把遇到的问题捋一捋
  ###OC启动过程遇到的问题
- -  #### 主板上没有above 4g decoding选项的，bootargs中添加npci=0x200
- -  ####别忘记勾选dummypowermanagement
- -  ####过分关注cfg lock的问题，kernel选项下两个带cfg的别打勾
- -  ####config文件胡乱套用，要更新oc的话用新版本oc configurator打开config.plist文件再保存一下即可
- -  ####efi文件过于复杂，必要的几个即可
+ -  主板上没有above 4g decoding选项的，bootargs中添加npci=0x200
+ -  别忘记勾选dummypowermanagement
+ -  过分关注cfg lock的问题，kernel选项下两个带cfg的别打勾
+ -  config文件胡乱套用，要更新oc的话用新版本oc configurator打开config.plist文件再保存一下即可
+ -  efi文件过于复杂，必要的几个即可
 ###引导过程遇到的问题
- -  ####识别不到系统盘，勾选了嵌入式apfs中的enablejumpstart依然没有反应，请添加apfs.efi
- -  ####
- -  ####
- -  ####
- -  ####
- -  ####
- -  ####
- -  ####
- -  ####windows使用usbtoolbox定制USB时，到了依次拔插usb步骤时记得也把插着鼠标键盘的usb拔下来插usb3.0
- -  ####
- -  ####
+ -  识别不到系统盘，勾选了嵌入式apfs中的enablejumpstart依然没有反应，请添加apfs.efi（对于oc0.7以上）
+ -  RTC only single RAM blank(128k)错误，主板上没有above 4g decoding选项的，bootargs中添加npci=0x200,rtcchecksum选项没有作用
+ -  config文件胡乱套用，要更新oc的话用新版本oc configurator打开config.plist文件再保存一下即可
+
+###完善过程遇到的问题
+ -  windows使用usbtoolbox定制USB时，到了依次拔插usb步骤时记得也把插着鼠标键盘的usb拔下来插usb3.0
+ -  随航请使用macpro1，1 2017型号
+###修复睡眠过程遇到的问题
+ -  amd睡眠问题纠结了非常久，这方面ssdt之类的被困住了，但是最后的确依靠零零散散的信息琢磨出了禁用_SAT的方法，结果无效。ssdt是天坑
+ -  以为的ec控制器的问题，结果不是
+ -  以为用了ryzen power manegement就行，结果不行
+ -  以为有了原生电源管理就能解决，结果加载ssdt-plug解锁后问题依旧
+ -  以为是nvram的锅于是虚拟nvram 无果
+ -  以为是rtc问题，添加相应kext添加启动参数后无果
+ -  定制了usb后禁用_SAT的ssdt与usb控制器发生冲突
+ -  结果插入到usb3.1接口便可以睡眠了（因为查到的资料都显示插在2.0才能睡眠），阴差阳错成功了
+ -  最后更新Monterey才完美解决
+ 
+ -  
+
  
