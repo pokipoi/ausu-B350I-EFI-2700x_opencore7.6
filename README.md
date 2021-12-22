@@ -53,7 +53,7 @@
  -  windows使用usbtoolbox定制USB时，到了依次拔插usb步骤时记得也把插着鼠标键盘的usb拔下来插usb3.0
  -  随航请使用macpro1，1 2017型号
 ### 修复睡眠过程遇到的问题
- -  amd睡眠问题纠结了非常久，这方面ssdt之类的被困住了，但是最后的确依靠零零散散的信息琢磨出了禁用_SAT的方法，主要关键点是hackintool工具中的pcie栏中的IOReg名称.结果无效。ssdt是天坑
+ -  amd睡眠问题纠结了非常久，这方面ssdt之类的被困住了，但是最后的确依靠零零散散的信息琢磨出了禁用_SAT的方法，dortaniad [Sleep crashing on AMD](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#sleep-crashing-on-amd)提到，关键点是hackintool工具中pcie栏中，usb controller的IOReg名称.。ssdt是天坑最后还是无效
  -  以为的ec控制器的问题，结果不是
  -  以为用了ryzen power manegement就行，结果不行
  -  以为有了原生电源管理就能解决，结果加载ssdt-plug解锁后问题依旧
