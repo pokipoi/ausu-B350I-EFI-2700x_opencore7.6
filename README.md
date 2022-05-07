@@ -51,7 +51,8 @@
 
 ### 完善过程遇到的问题
  -  windows使用usbtoolbox定制USB时，到了依次拔插usb步骤时记得也把插着鼠标键盘的usb拔下来插usb3.0
- -  随航请使用macpro1，1 2017型号
+ -  ~~随航请使用macpro1，1 2017型号 ~~（升级为montery后无效）
+ -  随航使用imac 19，1  i9 9900k机型
 ### 修复睡眠过程遇到的问题
  -  amd睡眠问题纠结了非常久，这方面ssdt之类的被困住了，但是最后的确依靠零零散散的信息琢磨出了禁用_SAT的方法，dortaniad [Sleep crashing on AMD](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#sleep-crashing-on-amd)提到，关键点是hackintool工具中pcie栏中，usb controller的IOReg名称。ssdt是天坑最后还是无效。
  关于这一点[这里](https://github.com/mikigal/ryzen-hackintosh#Sleep)有更多信息
