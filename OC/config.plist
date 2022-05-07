@@ -1446,7 +1446,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>3</integer>
+                <integer>11</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
@@ -1625,13 +1625,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string></string>
+                <string>C02917104GULNV91F</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data>sB2iSP3c</data>
+                <data>mCLvYXmr</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1639,9 +1639,9 @@
                 <key>SystemProductName</key>
                 <string>iMac19,1</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>C02YM3ZEJV3Q</string>
                 <key>SystemUUID</key>
-                <string></string>
+                <string>6B1A3CD1-6144-4D79-BAE8-D2031A18F2B6</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
