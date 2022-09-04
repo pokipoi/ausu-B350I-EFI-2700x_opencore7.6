@@ -65,6 +65,8 @@
  -  定制了usb后禁用_SAT的ssdt与usb控制器发生冲突
  -  结果插入到usb3.1接口便可以睡眠了（因为查到的资料都显示插在2.0才能睡眠），阴差阳错成功了
  -  最后更新Monterey才完美解决
- 
+## 额外知识
+ - log show --last 1d | grep "Wake reason" //一天内唤醒原因
+ - control + C//终端终止当前进程
  
    [免责声明](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.txt)
