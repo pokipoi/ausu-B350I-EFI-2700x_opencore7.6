@@ -46,7 +46,7 @@
  -  efi文件过于复杂，必要的几个即可
 ### 引导过程遇到的问题
  -  识别不到系统盘，勾选了嵌入式apfs中的enablejumpstart依然没有反应，请添加apfs.efi（对于oc0.7以上）
- -  RTC only single RAM blank(128k)错误，主板上没有above 4g decoding选项的，bootargs中添加npci=0x200,  rtcchecksum选项没有作用
+ -  RTC only single RAM blank(128k)错误，主板上没有above 4g decoding选项的，bootargs中添加npci=0x200； rtcchecksum选项没有作用
  -  config文件胡乱套用，要更新oc的话用新版本oc configurator打开config.plist文件再保存一下即可，关键驱动文件一个一个更新
  -  lilu1.5.6以上不能在我的catalina工作
 
