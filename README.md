@@ -70,5 +70,6 @@
  - control + C//终端终止当前进程
  - 开机苹果标志异常，过大或者变扁苹果，升级显卡gop固件，不管是新显卡还是老显卡
  - [黑苹果开机logo探讨
-](https://coconut-era-514.notion.site/logo-2cfeee0538fd4c288be74e9d31a38b02?pvs=4) 
-   [免责声明](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.txt)
+](https://coconut-era-514.notion.site/logo-2cfeee0538fd4c288be74e9d31a38b02?pvs=4)
+
+[免责声明](https://github.com/vsnotme/B350I-EFI-opencore/blob/main/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.txt)
